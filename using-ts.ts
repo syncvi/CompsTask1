@@ -5,7 +5,8 @@ const input1 = document.getElementById("string1")! as HTMLInputElement;
 
 function vowelCount(str: string) {
     const count: number = str.match(/[aeiou]/gi)?.length ?? 0;
-
+    /*g modifier: global. All matches (don't return on first match)
+    i modifier: insensitive. Case insensitive match (ignores case of [a-zA-Z])*/
     return count;
 }
 
