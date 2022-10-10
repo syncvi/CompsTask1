@@ -11,7 +11,7 @@ function vowelCount(str: string) {
 }
 
 function sortCheck(/*arr: Array<Int32Array>*/) {
-    //might just use Array.push(value) but that would require constant user submition i guess?
+    //might just use Array.push(value) but that would require constant user submission i guess? (good heavens i can't spell)
     var input2 = document.getElementsByName('array[]')!/*as NodeListOf<HTMLElement>*/;
 
     // var input = (<HTMLInputElement><any>document.getElementsByName('array[]')).value;
